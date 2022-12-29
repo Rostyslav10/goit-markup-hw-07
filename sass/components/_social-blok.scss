@@ -1,0 +1,23 @@
+.page-footer__social-blok{
+    margin-left: 70px;
+}
+.social-blok__title{
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: $header-background-color;
+
+    margin-bottom: 20px;
+}
+
+
+.social-blok__link {
+    @extend %network;
+
+    color: $hero-text-color;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.social-blok__icon {
+    fill: currentColor;
+}

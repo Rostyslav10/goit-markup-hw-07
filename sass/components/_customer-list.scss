@@ -8,22 +8,22 @@
 }
 
 .customer-list__icon{
-    padding: 0 0;
-    display: flex;
-    cursor: pointer;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    width: 170px;
-    height: 92px;
-    margin-right: 30px;
-    justify-content: center;
-        align-items: center;
-        fill: rgba(175, 177, 184, 1);
-        background-color: $primery-background-color ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 
-        transition-property: fill,border;
-            transition-duration: 250ms;
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     cursor: pointer;
+     border: 1px solid #AFB1B8;
+     border-radius: 4px;
+     width: 170px;
+     height: 92px;
+     padding: 0 0;
+     margin-right: 30px;
+     fill: rgba(175, 177, 184, 1);
+     background-color: $primery-background-color ;
+     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
             &:hover, &:focus{
                 fill: $activ-text-color;
                 border: 1px solid $activ-text-color;  

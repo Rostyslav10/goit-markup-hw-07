@@ -4,6 +4,7 @@
  .directions-list__photo{
      margin-right: 30px;
      position: relative;
+
      &:nth-child(3n){
         margin-right: o; 
      }
@@ -21,15 +22,11 @@
  
  }
  .directions-list__text{
+    @extend %transform-centr;
      position: absolute;
-     transform: translate(-50%, -50%);
-     top: 50%;
-     left: 50%;
- 
+     
+     @include stfont(1.14,0.03em,$header-background-color);
      font-weight: 700;
      text-align: center;
      text-transform: uppercase;
-     line-height: 1.14;
-     letter-spacing: 0.03em;
-     color: $header-background-color;
  }

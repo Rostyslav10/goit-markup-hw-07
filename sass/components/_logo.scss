@@ -1,11 +1,9 @@
 .logo{
     display: flex;
      font-family: 'Raleway', sans-serif;
+     @include stfont(1.17,0.03em,#000000);
      font-weight: 700;
      font-size: 26px;
-     line-height: 1.17;
-     color: #000000;
-     letter-spacing: 0.03em;
      text-decoration: none;
   }
   .page-header__logo{

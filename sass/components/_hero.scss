@@ -9,11 +9,10 @@
    
 }
 .hero-title{
-    color: $hero-text-color;
+    @include stfont(1.36,0.06em,$hero-text-color);
     font-weight: 900;
     text-transform: uppercase;
     font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
+    
     margin-bottom: 30px;
 }

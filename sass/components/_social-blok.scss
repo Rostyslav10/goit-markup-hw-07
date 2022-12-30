@@ -2,12 +2,9 @@
     margin-left: 70px;
 }
 .social-blok__title{
+    @include stfont(1.17,0.03em,$header-background-color);
     font-weight: 700;
-    letter-spacing: 0.03em;
-    line-height: 1.17;
     text-transform: uppercase;
-    color: $header-background-color;
-
     margin-bottom: 20px;
 }
 

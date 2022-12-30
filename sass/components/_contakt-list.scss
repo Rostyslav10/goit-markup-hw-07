@@ -1,8 +1,7 @@
 .contakt-list{
     display: inline-block;
-    }
-    
-    .contakt-list__adres {
+
+    &__adres {
         display: flex;
         
         @include stfont(1.71,0.03em,$header-background-color);
@@ -12,7 +11,7 @@
         margin-top: 28px;
     }
     
-    .contakt-list__link {
+    &__link {
         display: inline-block;
 
         @include stfont(1.71,0.03em,$footer-link-color);
@@ -21,3 +20,6 @@
 
         margin-top: 12px;
     }
+    }
+    
+   

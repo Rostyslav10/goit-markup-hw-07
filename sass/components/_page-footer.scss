@@ -1,15 +1,16 @@
 .page-footer {
     background-color: $hero-background-color;
     padding:60px 0;
+
+    &__container{
+        display: flex;
+        align-items: baseline;   
+    }
+    &__logo {
+        color: $header-background-color;    
+    }
+    &__info{
+        display: inline-block;
+    }
 }
 
-.page-footer__container{
-    display: flex;
-    align-items: baseline;   
-}
-.page-footer__logo {
-    color: $header-background-color;    
-}
-.page-footer__info{
-    display: inline-block;
-}

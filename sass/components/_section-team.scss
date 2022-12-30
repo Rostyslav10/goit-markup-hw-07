@@ -15,22 +15,22 @@
     &:nth-child(4n){
         margin-right: 0;  
     }
+       &__name{
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.03em;
+        line-height: 1.18;
+        margin-bottom: 10px;
+       }
+       &__specialty{
+         @extend %style-text-sekondary
+       }
+       &__info{
+         padding-top: 30px;
+         padding-bottom: 30px;
+         text-align: center; 
+       }
+
 }
 
 
-.team-card__name{
-   font-weight: 500;
-   font-size: 16px;
-   letter-spacing: 0.03em;
-   line-height: 1.18;
-   margin-bottom: 10px;
-}
-
-.team-card__specialty{
-    @extend %style-text-sekondary
-}
-.team-card__info{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center; 
-}

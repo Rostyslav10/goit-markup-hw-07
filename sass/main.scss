@@ -1,10 +1,15 @@
+// Utils
 @import"./utils/variables";
 @import "./utils/mixin";
 @import "./utils/plaseholders";
+
+// Base
 @import "./base/reset";
+@import "./base/base";
+
+// Components
 @import "./components/page-header";
 @import "./components/logo";
-@import "./components/site-nav";
 @import "./components/auth-nav";
 @import "./components/hero";
 @import "./components/button";
@@ -17,6 +22,7 @@
 @import "./components/contakt-list";
 @import "./components/social-blok";
 @import "./components/mailing";
+@import "./components/backdrop";
 @import "./components/modal";
 @import "./components/modal-back-button";
 @import "./components/modal-form";

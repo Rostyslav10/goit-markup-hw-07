@@ -6,13 +6,14 @@
     text-align: center;
     padding-bottom: 200px;
     padding-top: 200px;
-   
-}
-.hero-title{
-    @include stfont(1.36,0.06em,$hero-text-color);
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 44px;
+
+    &__title{
+        @include stfont(1.36,0.06em,$hero-text-color);
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 44px;
     
-    margin-bottom: 30px;
+        margin-bottom: 30px;
+    }
+   
 }

@@ -1,32 +1,8 @@
 // Utils
-@import"./utils/variables";
-@import "./utils/mixin";
-@import "./utils/plaseholders";
+@import"./utils/index";
 
 // Base
-@import "./base/reset";
-@import "./base/base";
+@import "./base/index";
 
 // Components
-@import "./components/page-header";
-@import "./components/logo";
-@import "./components/auth-nav";
-@import "./components/hero";
-@import "./components/button";
-@import "./components/preference";
-@import "./components/directions-list";
-@import "./components/section-team";
-@import "./components/social-network";
-@import "./components/customer-list";
-@import "./components/page-footer";
-@import "./components/contakt-list";
-@import "./components/social-blok";
-@import "./components/mailing";
-@import "./components/backdrop";
-@import "./components/modal";
-@import "./components/modal-back-button";
-@import "./components/modal-form";
-@import "./components/checkbox";
-@import "./components/modal-button";
-@import "./components/portfolio-button";
-@import "./components/portfolio-list";
+@import "./components/index";

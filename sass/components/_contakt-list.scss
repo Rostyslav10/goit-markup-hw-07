@@ -6,7 +6,7 @@
         
         @include stfont(1.71,0.03em,$header-background-color);
         font-size: 14px;
-        font-style: normal;
+        
        
         margin-top: 28px;
     }
@@ -16,7 +16,6 @@
 
         @include stfont(1.71,0.03em,$footer-link-color);
         font-style: normal;
-        text-decoration: none;
 
         margin-top: 12px;
     }
